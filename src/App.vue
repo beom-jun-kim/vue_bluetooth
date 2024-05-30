@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <BluetoothCom msg="Welcome to Your Vue.js App"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import BluetoothCom from './components/BluetoothCom.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    BluetoothCom
   }
 }
 </script>
@@ -23,4 +22,4 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
-</style>
+</style>./components/BluetoothCom.vue
